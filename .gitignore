@@ -1,0 +1,17 @@
+# Node
+node_modules/
+npm-debug.log
+
+# Firebase Admin key
+serviceAccountKey.json
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+.DS_Store
+
+# Editor/IDE
+.vscode/
+.idea/
+
+dados/serviceAccountKey.json
