@@ -81,7 +81,7 @@ function exibir(p) {
     // DELETE
     card.querySelector(".buttonRemover").addEventListener("click", async () => {
         try {
-            await fetch(`http://localhost:3000/api/personagens/${p.id}`, { method: "DELETE" });
+            await fetch(`http://localhost:8000/api/personagens/${p.id}`, { method: "DELETE" });
             card.remove();
             const popup = document.getElementById("popupDeletar");
             exibiuPopup(popup);
